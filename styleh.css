@@ -9,6 +9,9 @@ body {
     height: 100vh;
     overflow: hidden;
     background-image: url('https://clipground.com/images/random-things-clipart-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .container {
     text-align: center;
