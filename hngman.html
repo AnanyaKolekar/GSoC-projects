@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who Am I? - Riddles</title>
+    <link rel="stylesheet" href="styleh.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Who Am I? - Riddles</h1>
+
+        <!-- Display the riddle question -->
+        <div id="riddle"></div>
+
+        <!-- Display the message or result (correct/incorrect/attempts left) -->
+        <div id="message"></div>
+
+        <!-- Display the winning message here -->
+        <div id="winmessage"></div>
+
+        <!-- Input field to enter the guess for the riddle answer -->
+        <input type="text" id="guessInput">
+
+        <!-- Button to submit the guess -->
+        <button onclick="guessAnswer()">Guess</button>
+
+        <!-- Button to restart the game -->
+        <button onclick="restart()">Restart</button>
+    </div>
+
+    <script src="./logich.js"></script>
+
+</body>
+</html>
